@@ -1,3 +1,46 @@
-content {
-    max-width: 1600px
+/*centering and margins*/
+#content {
+    max-width: 1600px;
+    margin: 0, auto;
 }
+nav a {
+    text-align: center;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+
+/*Background Colors*/
+#background {
+    height: 725px;
+    background-color: #773344;
+}
+body {
+    background-color: #F4D8CD; 
+}
+header {
+    background-color:#034078;
+}
+nav a:hover {
+    background-color: #48BEFF;
+}
+.book, .join{
+    background-color: #F4D8CD; 
+}
+.book:hover, .join:hover{
+    background-color: #48BEFF;
+}
+.msg{
+    background-color: #773344;
+}
+footer{
+    background-color:#034078;
+}
+
+/*Text Colors*/
