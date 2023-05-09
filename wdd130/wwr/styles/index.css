@@ -43,29 +43,33 @@ nav a:hover {
 .msg{
     background-color: #773344;
 }
-footer{
-    background-color:#034078;
-    color: white;
-}
-
-/*Text Colors*/
-.home-title{
-    color:darkgreen;
-}
-h4{
-    color:olive;
-}
 .msg h2{
     color:#F4D8CD;
 }
 .msg p{
     color:#F4D8CD;
 }
-
+.msg a{
+    color:whitesmoke;
+}
+.msg a:hover{
+    background-color: #773344;
+    color: #48BEFF;
+}
+footer{
+    background-color:#034078;
+    color: white;
+}
 footer a{
     color:whitesmoke;
 }
 footer a:hover{
     background-color: #034078;
     color:#48BEFF
+}
+.home-title{
+    color:darkgreen;
+}
+h4{
+    color:olive;
 }
