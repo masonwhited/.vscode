@@ -40,6 +40,12 @@ body {
 }
 header {
     background-color:#034078;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 nav a:hover {
     background-color: #034078;
@@ -112,8 +118,9 @@ h4{
 h2{
     margin: 0;
 }
-#logo {
+.logo {
     padding-top: 5px;
+    max-width: 100px;
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
