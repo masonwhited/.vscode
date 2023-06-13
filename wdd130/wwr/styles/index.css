@@ -64,6 +64,10 @@ nav a {
     grid-column: 6/10;
     grid-row: 6/7;
 }
+.river-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
 main section {
     text-align: center;
 }
@@ -156,7 +160,7 @@ footer .social img{
     padding-top: 15px;
 }
 .home-title{
-    color:#48BEFF;
+    color:whitesmoke;
     font-family: Brush Script MS, Georgia, 'Trebuchet MS';
     font-size: 2em;
     margin-top: 10px;
