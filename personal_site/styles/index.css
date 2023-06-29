@@ -5,6 +5,7 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+/*HEADER CSS*/
 header {
     background-color:#591902;
     display: grid;
@@ -36,6 +37,7 @@ nav a:hover {
     align-self: center;
     grid-column: 2/3;
 }
+/*BODY CSS*/
 body {
     background-color: #F2C641; 
     font-family: "Rubik", "PT Serif", "Comfortaa";
@@ -43,9 +45,9 @@ body {
     margin: 0;
     padding: 0;
 }
+/*HOME GRID CSS*/
 
-
-
+/*FOOTER CSS*/
 footer {
     background-color:#591902;
     padding: 25px 50px;
