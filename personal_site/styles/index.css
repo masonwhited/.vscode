@@ -8,11 +8,11 @@
 header {
     background-color:#591902;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: repeat(3, 1fr);
 }
 nav {
-    display: flex;
-    justify-content: space-around;
+    grid-column: 3/4;
+    margin-top: 20%;
 }
 nav a {
     text-align: center;
@@ -27,12 +27,14 @@ nav a:hover {
 }
 .logo {
     padding-top: 5px;
-    max-width: 100px;
+    max-width: 150px;
+    grid-column: 2/3;
 }
 #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    grid-column: 2/3;
 }
 body {
     background-color: #F2C641; 
