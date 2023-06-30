@@ -45,13 +45,41 @@ body {
     margin: 0;
     padding: 0;
 }
+h2 {
+    margin-left: 100px;
+    font-family: "Dancing Script", "Playfair Display", "PT Serif"; 
+}
 /*HOME GRID CSS*/
+.home-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main img {
+    margin-left: 225px;
+    width: 50%;
+    border: #591902 solid 5px;
 
+}
+#history-info {
+    padding: 5px 25px;
+    grid-column: 1/2;
+    text-align: center;
+    color: #F2C641;
+    background-color: #8C3503;
+}
+#dishes-info {
+    padding: 5px 25px;
+    grid-column: 2/3;
+    text-align: center;
+    color: #F2C641;
+    background-color: #8C3503;
+}
 /*FOOTER CSS*/
 footer {
     background-color:#591902;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -78,9 +106,4 @@ footer #home-link{
     text-align: right;
     grid-column-start: 4;
     grid-row: 1/2;
-}
-footer a:hover{
-    background-color: #591902;
-    color:#F2C641;
-    text-decoration: underline;
 }
