@@ -57,23 +57,24 @@ h2 {
 }
 main img {
     margin-left: 225px;
+    margin-bottom: 100px;
     width: 50%;
     border: #591902 solid 5px;
 
 }
 #history-info {
-    padding: 5px 25px;
+    padding: 5px 50px;
     grid-column: 1/2;
     text-align: center;
     color: #F2C641;
-    background-color: #8C3503;
+    background-color: #591902;
 }
 #dishes-info {
-    padding: 5px 25px;
+    padding: 5px 50px;
     grid-column: 2/3;
     text-align: center;
     color: #F2C641;
-    background-color: #8C3503;
+    background-color: #591902;
 }
 /*FOOTER CSS*/
 footer {
