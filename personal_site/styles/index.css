@@ -107,7 +107,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-main img {
+.home-grid img {
     margin-left: 225px;
     margin-bottom: 100px;
     width: 50%;
@@ -132,11 +132,13 @@ main img {
 .main-grid {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 1fr, 2fr;
+    grid-template-columns: 1fr 2fr;
 }
 #curry-img {
     grid-column: 1/2;
     grid-row: 1/2;
+    width: 75%;
+    margin-left: 20%;
 }
 #curry-recipe {
     grid-column: 2/3;
@@ -149,6 +151,8 @@ main img {
 #pasta-img {
     grid-column: 1/2;
     grid-row: 2/3;
+    width: 75%;
+    margin-left: 20%;
 }
 #pasta-recipe {
     grid-column: 2/3;
