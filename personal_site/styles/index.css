@@ -66,8 +66,8 @@ h2 {
 .popup .popuptext {
   visibility: hidden;
   width: 160px;
-  background-color: #555;
-  color: #fff;
+  background-color: #591902;
+  color: #F2C641;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
@@ -87,7 +87,7 @@ h2 {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: #591902 transparent transparent transparent;
 }
 
 /* Toggle this class - hide and show the popup */
