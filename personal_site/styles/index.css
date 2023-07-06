@@ -59,6 +59,8 @@ h2 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 /* The actual popup */
 .popup .popuptext {
