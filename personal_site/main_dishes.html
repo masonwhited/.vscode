@@ -24,21 +24,33 @@
                 <img id="curry-img" src="images/curry.jpg" alt="Picture of curry rice">
             <div id="curry-recipe">
             <h2>Curry Rice</h2>
-            <p>For this recipe you'll need: 1 cup of medium grain white rice (per person)
-                1 lb of your preferred meat cut into 1 in cubes (beef, pork, chicken)
-                1 large white or yellow onion sliced
-                2 packets of Golden Curry Japanese Curry Mix
-                4 1/2 cups water
-            </p><br>
-            <p>Make sure to wash your rice before cooking it. Cover completely in water 
-                and agitate with your fingers before straining. Repeat until water is mostly clear.
-                While your rice is cooking, in a large skillet panfry the meat and onions together making 
-                sure to create a fond at the bottom of your pan. Add your preferred seasonings (usually salt, 
-                pepper, and garlic powder). Add in the water and bring to a boil. Make sure to scrape the 
-                bottom of the pan to get that flavor mixed in with the rest. Once boiling, reduce to a simmer 
-                for 20 minutes. Add in the curry packets and remove from heat. Mix until homogenous.
-            </p><br>
-            <p>Optionally, you can fry a breaded chicken cutlet and add to the top.</p>
+            <p>For this recipe you'll need:</p><br>
+            <ol><li>1 cup of medium grain white rice (per person)</li>
+                <li>1 lb of your preferred meat cut into 1 in cubes (beef, pork, chicken)</li>
+                <li>1 large white or yellow onion sliced</li>
+                <li>2 packets of Golden Curry Japanese Curry Mix</li>
+                <li>4 1/2 cups water</li>
+            </ol><br>
+            <ol><li>Make sure to wash your rice before cooking it.
+                Cover completely in water and agitate with your fingers before straining. Repeat until water is mostly clear.</li>
+                <li>While your rice is cooking, in a large skillet panfry the meat and onions together making 
+                sure to create a fond at the bottom of your pan.</li>
+                <li>Add your preferred seasonings (usually salt, pepper, and garlic powder).</li>
+                <li>Add in the water and bring to a boil. Make sure to scrape the bottom of the pan to get that flavor mixed in with the rest.</li>
+                <li>Once boiling, reduce to a simmer for 20 minutes.</li>
+                <li>Add in the curry packets and remove from heat. Mix until homogenous.</li>
+            </ol><br>
+            <div class="popup" onclick="myFunction()">Click me for optional additions
+                <span class="popuptext" id="myPopup">Add a breaded cutlet for extra flavor and texture</span>
+              </div>
+              
+              <script>
+              // When the user clicks on div, open the popup
+              function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+              }
+              </script>
             </div>
         </section>
             <section class="pasta">
