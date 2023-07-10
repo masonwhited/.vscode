@@ -49,60 +49,6 @@ h2 {
     margin-left: 100px;
     font-family: "Dancing Script", "Playfair Display", "PT Serif"; 
 }
-/*POPUP BUTTON*/
-/* Popup container - can be anything you want */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-/* The actual popup */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #8C3503;
-  color: #F2C641;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #8C3503 transparent transparent transparent;
-}
-/* Toggle this class - hide and show the popup */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
 /*HOME GRID CSS*/
 .home-grid {
     margin-top: 100px;
@@ -157,6 +103,93 @@ h2 {
     margin-left: 20%;
 }
 #pasta-recipe {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: #591902;
+    color: #F2C641;
+    margin-right: 50px;
+}
+/*POPUP BUTTON*/
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #8C3503;
+    color: #F2C641;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #8C3503 transparent transparent transparent;
+  }
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+/*DESSERT GRID*/
+.desserts-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#brownie-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 75%;
+    margin-left: 20%;
+}
+#brownie-recipe {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: #591902;
+    color: #F2C641;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+#chocolate-img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 75%;
+    margin-left: 20%;
+}
+#pie-recipe {
     grid-column: 2/3;
     grid-row: 2/3;
     background: #591902;
